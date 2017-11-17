@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="testing">Testing</string>
+    <string name="training">Training</string>
+</resources>

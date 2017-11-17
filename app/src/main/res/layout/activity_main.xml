@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nikh.bluetooth.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="292dp"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buttonTurnBluetoothOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="16dp"
+            android:layout_weight="0"
+            android:onClick="sendViaBluetooth"
+            android:text="turn Bluetooth On" />
+
+
+        <Button
+            android:id="@+id/buttonTesting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_weight="0"
+            android:onClick="sendViaBluetooth"
+            android:text="@string/testing" />
+
+
+        <Button
+            android:id="@+id/buttonTraining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="16dp"
+            android:layout_weight="0"
+            android:onClick="sendViaBluetooth"
+            android:text="@string/training" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
